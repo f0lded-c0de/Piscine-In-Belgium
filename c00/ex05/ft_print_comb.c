@@ -14,10 +14,8 @@ void ft_print_comb(void)
 			while(comb[2] <= 57)
 			{
 				write(1, comb, 3);
-				if(comb != "789")
-				{
+				if(comb[0] != 55 || comb[1] != 56 || comb[2] != 57)
 					write(1, ", ", 2);
-				}
 				comb[2]++;
 			}
 			comb[1]++;
