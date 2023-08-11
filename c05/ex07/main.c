@@ -45,7 +45,6 @@ void ft_putstr(char *str)
 
 int main(void)
 {
-	/*
 	ft_putnbr(ft_find_next_prime(-12));
 	ft_putchar('\n');
 	ft_putnbr(ft_find_next_prime(-1));
@@ -74,7 +73,6 @@ int main(void)
 	ft_putchar('\n');
 	ft_putnbr(ft_find_next_prime(-2147483648));
 	ft_putchar('\n');
-	*/
 	ft_putnbr(ft_find_next_prime(2147483630));
 	ft_putchar('\n');
 
