@@ -45,11 +45,12 @@ void ft_putstr(char *str)
 
 int main(void)
 {
-	char	s1[] = "12345678\n";
+	char	s1[] = "1234567891\n";
 	char	s2[] = "123456789\n";
 
 	ft_putstr(s1);
 	ft_putstr(s2);
 	ft_putnbr(ft_strcmp(s1, s2));
+	ft_putchar('\n');
 	return (0);
 }
