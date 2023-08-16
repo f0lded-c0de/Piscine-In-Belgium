@@ -1,11 +1,11 @@
 #include <unistd.h>
 
-void ft_putchar(char c)
+void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
 
-void ft_putnbr(int nb)
+void	ft_putnbr(int nb)
 {
 	if (nb > 9 || nb < -9)
 	{
@@ -30,9 +30,9 @@ void ft_putnbr(int nb)
 		ft_putchar(nb + 48);
 }
 
-void ft_putstr(char *str)
+void	ft_putstr(char *str)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (str[i])
@@ -42,7 +42,7 @@ void ft_putstr(char *str)
 	}
 }
 
-int main(void)
+int	main(void)
 {
 
 
